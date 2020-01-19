@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="modal.css">
+</head>
+<body class="container-fluid" style="background-image: url('3d.jpg')">
+	<div class="topnav">
+		<a class="active" href="apiayax.html">Home</a>
+		<div class="active text-right">
+		<input type="text" id="busqueda">
+		<input type="submit" value="Buscar" name="buscar" id="boton">
+		</div>
+	</div>
+	<div id="contenedor" class="row container-fluid p-3"></div>
+
+	<div id="openModal" class="modalDialog container-fluid p-3">
+      <div id="modal" class="container-fluid row p-3">
+      </div>
+    </div>
+	<script src=./apiayax.js></script>
+</body>
+</html>
